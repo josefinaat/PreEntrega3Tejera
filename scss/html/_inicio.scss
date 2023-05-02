@@ -1,0 +1,49 @@
+@import "utilidad/variables";
+
+body{
+    header{
+        width: 100%;
+        background-color: $bordes;
+        font-family: sans-serif;
+        img{
+            display: block;
+            margin: auto;
+        }
+        nav{
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+        ul{
+            li{
+                list-style: none;
+                display: inline-block;
+                margin-right: 20px;
+            }
+            a{
+                text-decoration: none;
+                color: #000000;
+                padding: 15px 20px;
+                display: block;
+                font-size: 1.1rem;
+                transition: all .4s ease-in-out;
+                text-transform: uppercase;
+                
+            }
+            a:hover{
+                background: #6e20a6;
+                color: #000;
+            }
+        }
+    }
+    main{
+        background-color:#f891e9
+    }
+    footer{
+        background-color: #ff6fe9;
+        .huno{
+            color: #6e20a6;
+            text-align: center;
+        }
+    }
+}

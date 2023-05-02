@@ -1,0 +1,33 @@
+body{
+    main{
+        .login-card{
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #f5bbe7;
+            border-radius: 10px;
+            background-color: #b487c5;
+            box-shadow: 2px 2px 10px #ccc;
+        }
+        .card-header {
+            text-align: center;
+            margin-bottom: 20px
+          }
+        .card-header .log {
+            margin: 0;
+            font-size: 24px;
+            color: black;
+          }
+        .form-group{
+            margin-bottom: 15px;
+            form{
+                label{    
+                    font-size: 18px;
+                    margin-bottom: 5px;
+                }
+                         
+            }
+        }
+       
+    }
+}
